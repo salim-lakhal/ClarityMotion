@@ -1,0 +1,139 @@
+title: TrustGuard
+description: TrustGuard est une startup innovante spécialisée dans la sécurisation et la certification de témoignages sensibles. Avec l'évolution des technologies, TrustGuard offre une solution de protection basée sur l'IA et la cryptographie avancée pour anonymiser l'image et la voix des témoins, garantissant leur sécurité sans compromettre l'authenticité du contenu.
+
+hero:
+  title: Protégez l'identité de vos témoins
+  description: Sécurisez les témoignages sensibles grâce à TrustGuard, la solution de protection et d'authentification de témoignages via IA et cryptographie.
+  headline:
+    label: Sécurité et éthique
+    icon: i-heroicons-shield-check
+  links:
+    - label: Découvrir TrustGuard
+      icon: i-heroicons-arrow-right-20-solid
+      trailing: true
+      to: '#features'
+      size: xl
+
+logos:
+  title: Une solution de confiance utilisée par les leaders
+  icons:
+    - i-simple-icons-amazonaws
+    - i-simple-icons-heroku
+    - i-simple-icons-netlify
+    - i-simple-icons-vercel
+    - i-simple-icons-cloudflare
+
+features:
+  headline: Fonctionnalités
+  title: Pourquoi choisir TrustGuard ?
+  description: TrustGuard propose une protection robuste des témoignages en anonymisant les images et voix des témoins, tout en certifiant l'authenticité des récits.
+  items:
+    - title: Facilité d’utilisation
+      description: TrustGuard intègre une solution intuitive pour anonymiser rapidement et en toute sécurité les témoignages.
+      icon: i-heroicons-cog
+    - title: Fiabilité éprouvée
+      description: Des technologies de pointe pour protéger les témoins et garantir la véracité des témoignages.
+      icon: i-heroicons-check
+    - title: Sécurité maximale
+      description: Utilisation de cryptographie avancée pour un anonymat inviolable.
+      icon: i-heroicons-lock-closed
+    - title: Rapidité
+      description: Transformation des vidéos et certifications en un temps record, pour une diffusion rapide.
+      icon: i-heroicons-rocket-launch
+    - title: Coût abordable
+      description: Une solution accessible et compétitive pour remplacer les coûts élevés des témoignages traditionnels.
+      icon: i-heroicons-currency-dollar
+    - title: Évolutivité
+      description: Service adaptable aux besoins des petites et grandes entreprises de production.
+      icon: i-heroicons-chart-bar
+
+pricing:
+  headline: Tarification
+  title: Un plan pour chaque besoin
+  description: Choisissez le plan qui correspond le mieux à votre entreprise, avec des options flexibles pour tous les budgets.
+  plans:
+    - title: Basique
+      description: Un plan pour les individus et petits projets.
+      price: $300 / minute de vidéo
+      align: top
+      button:
+        label: Commencer
+        color: gray
+      features:
+        - Anonymisation de base
+        - Cryptage de la voix
+        - Stockage temporaire sécurisé
+    - title: Standard
+      description: Un plan pour les équipes de taille moyenne.
+      price: $500 / minute de vidéo
+      highlight: true
+      scale: true
+      align: top
+      button:
+        label: Commencer
+      features:
+        - Anonymisation avancée
+        - Cryptage voix et image
+        - Certification de véracité
+    - title: Premium
+      description: Un plan pour les grandes équipes et projets d'envergure.
+      price: $800 / minute de vidéo
+      align: top
+      button:
+        label: Commencer
+        color: gray
+      features:
+        - Anonymisation complète
+        - Cryptage haute sécurité
+        - Certificat TrustGuard officiel
+        - Support prioritaire
+
+testimonials:
+  headline: Témoignages
+  title: Ce que disent nos clients
+  description: Découvrez les retours de nos utilisateurs et entreprises partenaires sur les services de TrustGuard.
+  items:
+    - quote: Grâce à TrustGuard, nous avons pu sécuriser des témoignages clés sans risquer l'exposition de nos sources.
+      author:
+        name: Rose Roberson
+        description: Productrice d’investigation
+        avatar:
+          src: https://i.pravatar.cc/120?img=1
+          loading: lazy
+    - quote: Un service rapide et sûr pour tous nos témoignages sensibles. Je recommande vivement.
+      author:
+        name: Chace Rodgers
+        description: Directeur de production
+        avatar:
+          src: https://i.pravatar.cc/120?img=7
+          loading: lazy
+    - quote: La certification TrustGuard donne une crédibilité précieuse à nos projets sensibles.
+      author:
+        name: Cornelius Sheppard
+        description: Journaliste d’investigation
+        avatar:
+          src: https://i.pravatar.cc/120?img=3
+          loading: lazy
+
+cta:
+  title: Commencez aujourd'hui
+  description: Découvrez comment TrustGuard peut sécuriser vos témoignages en quelques clics.
+  links:
+    - label: S'inscrire gratuitement
+      size: xl
+
+faq:
+  title: Questions fréquentes
+  description: Retrouvez les réponses aux questions les plus courantes sur TrustGuard.
+  items:
+    - label: Ce service est-il sécurisé ?
+      content: Oui, TrustGuard utilise des technologies de cryptographie avancées pour garantir un anonymat total et une sécurité maximale.
+      defaultOpen: true
+    - label: Comment puis-je annuler mon abonnement ?
+      content: Vous pouvez annuler votre abonnement à tout moment depuis votre tableau de bord.
+    - label: Puis-je changer de plan plus tard ?
+      content: Bien sûr ! Nos plans sont flexibles et adaptables à vos besoins en constante évolution.
+    - label: Offrez-vous des remboursements ?
+      content: Nous proposons des remboursements sous certaines conditions. Contactez-nous pour plus d’informations.
+    - label: Proposez-vous un support client ?
+      content: Oui, notre équipe de support est disponible pour vous assister dans l’utilisation de TrustGuard.
