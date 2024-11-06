@@ -3,29 +3,25 @@ const nuxtApp = useNuxtApp()
 const { activeHeadings, updateHeadings } = useScrollspy()
 
 const links = computed(() => [{
-  label: 'Features',
+  label: 'Fonctionnalitées',
   to: '#features',
   icon: 'i-heroicons-cube-transparent',
-  active: activeHeadings.value.includes('features') && !activeHeadings.value.includes('pricing'),
-  class: 'large-link' // Ajout de classe ici
+  active: activeHeadings.value.includes('features') && !activeHeadings.value.includes('pricing')
 }, {
-  label: 'Pricing',
+  label: 'Tarification',
   to: '#pricing',
   icon: 'i-heroicons-credit-card',
-  active: activeHeadings.value.includes('pricing') && !activeHeadings.value.includes('testimonials'),
-  class: 'large-link'
+  active: activeHeadings.value.includes('pricing') && !activeHeadings.value.includes('testimonials')
 }, {
-  label: 'Testimonials',
+  label: 'Témoignages',
   to: '#testimonials',
   icon: 'i-heroicons-academic-cap',
-  active: activeHeadings.value.includes('testimonials'),
-  class: 'large-link'
+  active: activeHeadings.value.includes('testimonials')
 }, {
   label: 'FAQ',
   to: '#faq',
   icon: 'i-heroicons-question-mark-circle',
-  active: activeHeadings.value.includes('faq'),
-  class: 'large-link'
+  active: activeHeadings.value.includes('faq')
 }])
 
 nuxtApp.hooks.hookOnce('page:finish', () => {
@@ -49,15 +45,11 @@ nuxtApp.hooks.hookOnce('page:finish', () => {
 
     <template #panel>
       <UAsideLinks :links="links" />
+
       <UDivider class="my-6" />
-      <UButton label="Get started" block />
+        label="Get started"
+        block
+      />
     </template>
   </UHeader>
 </template>
-
-<style scoped>
-.large-link {
-  font-size: 5rem; /* Ajuste cette taille selon ton besoin */
-  font-weight: bold;
-}
-</style>

@@ -98,7 +98,7 @@ function onSubmit() {
       <UColorModeButton size="sm" />
 
       <UButton
-        to="https://github.com/nuxt-ui-pro/landing"
+        to="https://github.com/salim-lakhal/TrustGuard"
         target="_blank"
         icon="i-simple-icons-github"
         aria-label="GitHub"

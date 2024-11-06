@@ -15,13 +15,14 @@ hero:
       size: xl
 
 logos:
-  title: Une solution de confiance utilisée par les leaders
+  title: Une solution de confiance utilisée par les médias
   icons:
-    - i-simple-icons-amazonaws
-    - i-simple-icons-heroku
-    - i-simple-icons-netlify
-    - i-simple-icons-vercel
-    - i-simple-icons-cloudflare
+    - i-simple-icons-bbc
+    - i-simple-icons-cnn
+    - i-simple-icons-fox
+    - i-cbi-tf1    
+    - i-simple-icons-nbc
+
 
 features:
   headline: Fonctionnalités

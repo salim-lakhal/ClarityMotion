@@ -15,6 +15,7 @@ useSeoMeta({
       :title="page.hero.title"
       :description="page.hero.description"
       :links="page.hero.links"
+      title-class="text-7xl lg:text-6xl font-bold" 
     >
       <template #headline>
         <UBadge
