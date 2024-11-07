@@ -1,6 +1,6 @@
-# TrustGuard
+# ClarityMotion
 
-TrustGuard is a dedicated platform for businesses and organizations that require secure, reliable management of sensitive testimonials. Built with Nuxt UI Pro, TrustGuard allows you to capture, verify, and display customer testimonials with enhanced security, ensuring your customers’ privacy and trust. Our solution is designed to give your audience confidence in the authenticity and safety of shared feedback, while helping your business highlight honest reviews that drive credibility.
+ClarityMotion is a dedicated platform for businesses and organizations that require secure, reliable management of sensitive testimonials. Built with Nuxt UI Pro, ClarityMotion allows you to capture, verify, and display customer testimonials with enhanced security, ensuring your customers’ privacy and trust. Our solution is designed to give your audience confidence in the authenticity and safety of shared feedback, while helping your business highlight honest reviews that drive credibility.
 
 ## Setup
 
