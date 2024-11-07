@@ -1,17 +1,17 @@
-title: TrustGuard
-description: TrustGuard est une startup innovante spécialisée dans la sécurisation et la certification de témoignages sensibles. Avec l'évolution des technologies, TrustGuard offre une solution de protection basée sur l'IA et la cryptographie avancée pour anonymiser l'image et la voix des témoins, garantissant leur sécurité sans compromettre l'authenticité du contenu.
+title: Clarity Motion
+description: Clarity Motion est une startup innovante spécialisée dans la sécurisation et la certification de témoignages sensibles. Avec l'évolution des technologies, Clarity Motion offre une solution de protection basée sur l'IA et la cryptographie avancée pour anonymiser l'image et la voix des témoins, garantissant leur sécurité sans compromettre l'authenticité du contenu.
 
 hero:
   title: Protégez l'identité de vos témoins
-  description: Sécurisez les témoignages sensibles grâce à TrustGuard, la solution de protection et d'authentification de témoignages via IA et cryptographie.
+  description: Sécurisez les témoignages sensibles grâce à Clarity Motion, la solution de protection et d'authentification de témoignages via IA et cryptographie.
   headline:
     label: Sécurité et éthique
     icon: i-heroicons-shield-check
   links:
-    - label: Découvrir TrustGuard
+    - label: Découvrir Clarity Motion
       icon: i-heroicons-arrow-right-20-solid
       trailing: true
-      to: '#features'
+      to: '/demos'
       size: xl
 
 logos:
@@ -26,11 +26,11 @@ logos:
 
 features:
   headline: Fonctionnalités
-  title: Pourquoi choisir TrustGuard ?
-  description: TrustGuard propose une protection robuste des témoignages en anonymisant les images et voix des témoins, tout en certifiant l'authenticité des récits.
+  title: Pourquoi choisir Clarity Motion ?
+  description: Clarity Motion propose une protection robuste des témoignages en anonymisant les images et voix des témoins, tout en certifiant l'authenticité des récits.
   items:
     - title: Facilité d’utilisation
-      description: TrustGuard intègre une solution intuitive pour anonymiser rapidement et en toute sécurité les témoignages.
+      description: Clarity Motion intègre une solution intuitive pour anonymiser rapidement et en toute sécurité les témoignages.
       icon: i-heroicons-cog
     - title: Fiabilité éprouvée
       description: Des technologies de pointe pour protéger les témoins et garantir la véracité des témoignages.
@@ -86,15 +86,15 @@ pricing:
       features:
         - Anonymisation complète
         - Cryptage haute sécurité
-        - Certificat TrustGuard officiel
+        - Certificat Clarity Motion officiel
         - Support prioritaire
 
 testimonials:
   headline: Témoignages
   title: Ce que disent nos clients
-  description: Découvrez les retours de nos utilisateurs et entreprises partenaires sur les services de TrustGuard.
+  description: Découvrez les retours de nos utilisateurs et entreprises partenaires sur les services de Clarity Motion.
   items:
-    - quote: Grâce à TrustGuard, nous avons pu sécuriser des témoignages clés sans risquer l'exposition de nos sources.
+    - quote: Grâce à Clarity Motion, nous avons pu sécuriser des témoignages clés sans risquer l'exposition de nos sources.
       author:
         name: Rose Roberson
         description: Productrice d’investigation
@@ -108,7 +108,7 @@ testimonials:
         avatar:
           src: https://i.pravatar.cc/120?img=7
           loading: lazy
-    - quote: La certification TrustGuard donne une crédibilité précieuse à nos projets sensibles.
+    - quote: La certification Clarity Motion donne une crédibilité précieuse à nos projets sensibles.
       author:
         name: Cornelius Sheppard
         description: Journaliste d’investigation
@@ -118,17 +118,17 @@ testimonials:
 
 cta:
   title: Commencez aujourd'hui
-  description: Découvrez comment TrustGuard peut sécuriser vos témoignages en quelques clics.
+  description: Découvrez comment Clarity Motion peut sécuriser vos témoignages en quelques clics.
   links:
     - label: S'inscrire gratuitement
       size: xl
 
 faq:
   title: Questions fréquentes
-  description: Retrouvez les réponses aux questions les plus courantes sur TrustGuard.
+  description: Retrouvez les réponses aux questions les plus courantes sur Clarity Motion.
   items:
     - label: Ce service est-il sécurisé ?
-      content: Oui, TrustGuard utilise des technologies de cryptographie avancées pour garantir un anonymat total et une sécurité maximale.
+      content: Oui, Clarity Motion utilise des technologies de cryptographie avancées pour garantir un anonymat total et une sécurité maximale.
       defaultOpen: true
     - label: Comment puis-je annuler mon abonnement ?
       content: Vous pouvez annuler votre abonnement à tout moment depuis votre tableau de bord.
@@ -137,4 +137,4 @@ faq:
     - label: Offrez-vous des remboursements ?
       content: Nous proposons des remboursements sous certaines conditions. Contactez-nous pour plus d’informations.
     - label: Proposez-vous un support client ?
-      content: Oui, notre équipe de support est disponible pour vous assister dans l’utilisation de TrustGuard.
+      content: Oui, notre équipe de support est disponible pour vous assister dans l’utilisation de Clarity Motion.

@@ -38,8 +38,8 @@ nuxtApp.hooks.hookOnce('page:finish', () => {
   <UHeader :links="links">
     <template #logo>
       <div class="flex items-center space-x-2">
-        <img src="/image.png" alt="TrustGuard Logo" class="h-8 w-8" />
-        <span class="text-4xl font-bold">TrustGuard</span>
+        <img src="/image.png" alt="Clarity Motion Logo" class="h-12 w-12" />
+        <span class="text-4xl font-bold">Clarity Motion</span>
       </div>
     </template>
 
