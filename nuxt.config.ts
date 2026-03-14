@@ -1,4 +1,3 @@
-// https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   extends: ['@nuxt/ui-pro'],
 
@@ -10,21 +9,22 @@ export default defineNuxtConfig({
     '@nuxt/ui'
   ],
 
-  routeRules: {
-    // Temporary workaround for prerender regression. see https://github.com/nuxt/nuxt/issues/27490
-    '/': { prerender: true }
-  },
-
   devtools: {
     enabled: true
   },
 
-  typescript: {
-    strict: false
+  routeRules: {
+    '/': { prerender: true }
   },
 
   future: {
     compatibilityVersion: 4
+  },
+
+  compatibilityDate: '2024-07-11',
+
+  typescript: {
+    strict: false
   },
 
   eslint: {
@@ -34,7 +34,5 @@ export default defineNuxtConfig({
         braceStyle: '1tbs'
       }
     }
-  },
-
-  compatibilityDate: '2024-07-11'
+  }
 })

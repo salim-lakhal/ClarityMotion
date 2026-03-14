@@ -2,9 +2,9 @@
 const links = [{
   label: 'Resources',
   children: [{
-    label: 'Help center'
+    label: 'Help Center'
   }, {
-    label: 'Docs'
+    label: 'Documentation'
   }, {
     label: 'Roadmap'
   }, {
@@ -13,13 +13,13 @@ const links = [{
 }, {
   label: 'Features',
   children: [{
-    label: 'Affiliates'
+    label: 'Anonymization'
   }, {
-    label: 'Portal'
+    label: 'Certification'
   }, {
-    label: 'Jobs'
+    label: 'Video Processing'
   }, {
-    label: 'Sponsors'
+    label: 'Secure Storage'
   }]
 }, {
   label: 'Company',
@@ -39,17 +39,29 @@ const toast = useToast()
 const email = ref('')
 const loading = ref(false)
 
-function onSubmit() {
+async function onSubmit() {
   loading.value = true
 
-  setTimeout(() => {
+  try {
+    await $fetch('/api/newsletter', {
+      method: 'POST',
+      body: { email: email.value }
+    })
+
     toast.add({
       title: 'Subscribed!',
       description: 'You\'ve been subscribed to our newsletter.'
     })
-
+    email.value = ''
+  } catch {
+    toast.add({
+      title: 'Error',
+      description: 'Something went wrong. Please try again.',
+      color: 'red'
+    })
+  } finally {
     loading.value = false
-  }, 1000)
+  }
 }
 </script>
 
@@ -90,7 +102,7 @@ function onSubmit() {
 
     <template #left>
       <p class="text-gray-500 dark:text-gray-400 text-sm">
-        Copyright © {{ new Date().getFullYear() }}. All rights reserved.
+        Copyright &copy; {{ new Date().getFullYear() }} ClarityMotion. All rights reserved.
       </p>
     </template>
 
@@ -98,7 +110,7 @@ function onSubmit() {
       <UColorModeButton size="sm" />
 
       <UButton
-        to="https://github.com/salim-lakhal/TrustGuard"
+        to="https://github.com/salim-lakhal/ClarityMotion"
         target="_blank"
         icon="i-simple-icons-github"
         aria-label="GitHub"

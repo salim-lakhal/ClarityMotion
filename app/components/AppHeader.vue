@@ -3,17 +3,17 @@ const nuxtApp = useNuxtApp()
 const { activeHeadings, updateHeadings } = useScrollspy()
 
 const links = computed(() => [{
-  label: 'Fonctionnalitées',
+  label: 'Features',
   to: '#features',
   icon: 'i-heroicons-cube-transparent',
   active: activeHeadings.value.includes('features') && !activeHeadings.value.includes('pricing')
 }, {
-  label: 'Tarification',
+  label: 'Pricing',
   to: '#pricing',
   icon: 'i-heroicons-credit-card',
   active: activeHeadings.value.includes('pricing') && !activeHeadings.value.includes('testimonials')
 }, {
-  label: 'Témoignages',
+  label: 'Testimonials',
   to: '#testimonials',
   icon: 'i-heroicons-academic-cap',
   active: activeHeadings.value.includes('testimonials')
@@ -38,8 +38,12 @@ nuxtApp.hooks.hookOnce('page:finish', () => {
   <UHeader :links="links">
     <template #logo>
       <div class="flex items-center space-x-2">
-        <img src="/image.png" alt="Clarity Motion Logo" class="h-12 w-12" />
-        <span class="text-4xl font-bold">Clarity Motion</span>
+        <img
+          src="/image.png"
+          alt="ClarityMotion Logo"
+          class="h-12 w-12"
+        >
+        <span class="text-4xl font-bold">ClarityMotion</span>
       </div>
     </template>
 
@@ -47,8 +51,10 @@ nuxtApp.hooks.hookOnce('page:finish', () => {
       <UAsideLinks :links="links" />
 
       <UDivider class="my-6" />
-        label="Get started"
+      <UButton
+        label="Get Started"
         block
+        to="/submit"
       />
     </template>
   </UHeader>

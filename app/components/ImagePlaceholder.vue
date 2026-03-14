@@ -1,22 +1,19 @@
 <template>
   <div class="relative">
     <div class="bg-background border-gradient rounded-xl p-4">
-      <!-- Conteneur pour l'image -->
       <div class="aspect-w-16 aspect-h-9 rounded-lg relative overflow-hidden border border-dashed border-gray-950/10 dark:border-white/10">
-        <!-- Image d'arrière-plan -->
-        <img 
-          src="/image1.webp" 
-          alt="Illustration sécurisée"
+        <img
+          src="/image1.webp"
+          alt="Secure testimonial management platform"
           class="absolute inset-0 h-full w-full object-cover rounded-lg"
-        />
-        <!-- SVG en superposition (par-dessus l'image) -->
+        >
         <svg
           class="absolute inset-0 h-full w-full stroke-gray-950/10 dark:stroke-white/10"
           fill="none"
         >
           <defs>
             <pattern
-              id="pattern-5c1e4f0e-62d5-498b-8ff0-cf77bb448c8e"
+              id="hero-pattern"
               x="0"
               y="0"
               width="10"
@@ -28,7 +25,7 @@
           </defs>
           <rect
             stroke="none"
-            fill="url(#pattern-5c1e4f0e-62d5-498b-8ff0-cf77bb448c8e)"
+            fill="url(#hero-pattern)"
             width="100%"
             height="100%"
           />
@@ -37,7 +34,6 @@
     </div>
   </div>
 </template>
-
 
 <style scoped>
 .border-gradient:after {
